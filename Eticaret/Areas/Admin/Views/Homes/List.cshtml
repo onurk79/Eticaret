@@ -1,0 +1,212 @@
+﻿@model Eticaret.Areas.Admin.Models.list.dblist
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home | E-Ticaret</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/font-awesome.min.css" rel="stylesheet">
+    <link href="Content/prettyPhoto.css" rel="stylesheet">
+    <link href="Content/prettyPhoto.css" rel="stylesheet">
+    <link href="Content/animate.css" rel="stylesheet">
+    <link href="Content/main.css" rel="stylesheet">
+    <link href="Content/responsive.css" rel="stylesheet">
+    <title>List</title>
+</head>
+<body>
+
+
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.banka)
+            </th>
+            <td>
+                <a href="@Url.Action("New", new { id="banka"})" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.kampanya)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.kargo)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.katagori)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.markalar)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.odemeSecenekleri)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ozellikDetay)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.resimler)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.roller)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.sepet)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.siparisDurumu)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.siparisler)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.taksitler)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.taksitTaplosu)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.urunFiyat)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.urunler)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.urunOzellikler)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.üye)
+            </th>
+            <td>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-new-window"></i>New</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Delete</a>
+                <a href="@Url.Action("edit"@*, new { id=@post.Id}*@)" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+</html>

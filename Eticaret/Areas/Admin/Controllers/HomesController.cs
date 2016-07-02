@@ -7,8 +7,8 @@ using System.Web.Mvc;
 using Eticaret.Infrastructure;
 namespace Eticaret.Areas.Admin.Controllers
 {
-    [SelectedTab("Home")]
-    public class HomeController : Controller
+    [SelectedTab("Homes")]
+    public class HomesController : Controller
     {
         private Entitie context = new Entitie(); 
         // GET: Admin/Home

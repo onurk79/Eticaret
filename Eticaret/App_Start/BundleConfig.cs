@@ -26,6 +26,13 @@ namespace Eticaret
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new StyleBundle("~/admin/styles").
+                Include("~/content/styles/admin.css").
+                Include("~/content/styles/bootstrap.css"));
+
+            bundles.Add(new ScriptBundle("~/admin/scripts").
+               Include("~/content/scripts/jquery-1.11.2.min.js").
+               Include("~/content/scripts/form.js"));
 
             //bundles.Add(new ScriptBundle("~/Scripts").Include(
             // "~/Scripts/jquery.js",
